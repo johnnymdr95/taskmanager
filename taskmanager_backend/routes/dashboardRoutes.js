@@ -1,6 +1,6 @@
 // dashboardRoutes.js
 const express = require('express');
-const { getDashboardStats } = require('../controllers/DashboardController');
+const { getDashboardStats } = require('../controllers/dashboardController');
 const authenticate = require('../middleware/authenticate');
 const router = express.Router();
 
