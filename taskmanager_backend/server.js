@@ -10,7 +10,7 @@ const app = express();
 
 
 app.use(cors({
-  origin: 'http://localhost:3000', // Replace with your frontend URL
+  origin: 'https://taskmanager-frontend-ke6k.onrender.com',
   methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'],
   credentials: true,
 }));
