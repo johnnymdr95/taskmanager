@@ -62,7 +62,7 @@ const Priority = ({initialValue, onChange }) => {
             {isOpen && (
                 <ul className="absolute z-10 w-full bg-white border border-gray-300 rounded shadow-md mt-1">
                     <li
-                        onClick={() => handleSelection("1 (Highest)")}
+                        onClick={() => handleSelection("1")}
                         className="p-2 hover:bg-gray-100 cursor-pointer"
                     >
                         1 (Highest)
@@ -86,7 +86,7 @@ const Priority = ({initialValue, onChange }) => {
                         4
                     </li>
                     <li
-                        onClick={() => handleSelection("5 (Lowest)")}
+                        onClick={() => handleSelection("5")}
                         className="p-2 hover:bg-gray-100 cursor-pointer"
                     >
                         5 (Lowest)
